@@ -1,0 +1,44 @@
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 220px;
+  font-size: 52px;
+  color: rgb(47, 25, 70);
+  flex-wrap: wrap;
+}
+
+.welcome__text {
+  margin-left: 10px;
+  text-align: center;
+}
+
+.welcome__hi {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+.welcome__quote-author {
+  float: right;
+  font-size: 30px;
+  color: #e44254;
+  margin-right: 10px;
+
+}
+
+.welcome__quote {
+  font-size: 30px;
+  color: rgb(47, 25, 70);
+  text-align: center;
+}
+
+.center {
+  max-width: 800px;
+  margin: auto;
+}
+
+.welcome__img img{
+  max-width: 57px;
+}

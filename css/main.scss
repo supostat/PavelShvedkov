@@ -1,0 +1,45 @@
+//Misc
+@import "mics/normalize";
+@import "mics/fonts";
+@import "mics/adjustment";
+//Sections
+@import "sections/header";
+@import "sections/social";
+@import "sections/center";
+@import "sections/join";
+@import "sections/join-now";
+@import "sections/subscribe";
+@import "sections/footer";
+
+@media screen and (max-width: 1366px) {
+  .nav {
+    margin-bottom: 0;
+  }
+  .header__logo {
+    margin-bottom: 10px;
+  }
+.get__started {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .header__text {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header__text {
+    font-size: 35px;
+  }
+  .cards {
+    display: none;
+  }
+  .welcome {
+    margin-top: 0;
+  }
+  .join-now {
+    margin-top: 60px;
+  }
+}

@@ -1,0 +1,57 @@
+.join-now {
+  margin-top: 160px;
+  min-height: 730px;
+  background: url("../img/Join_bg.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.join-now__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.join-now__circle{
+  padding: 40px;
+  content:' ';
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.join-now__main {
+  box-sizing: border-box;
+  min-width: 370px;
+  height: 370px;
+  width: 370px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(103, 50, 110);
+  position: relative;
+  &-h1 {
+    font-size: 60px;
+  }
+  &-title {
+    font-size: 46px;
+    margin-bottom: 20px;
+  }
+}
+
+.join__link-btn {
+  text-decoration: none;
+  display: block;
+  color: white;
+  background: linear-gradient(0deg, rgb(226, 32, 40) 0%, rgb(249, 180, 22) 100%);
+  padding: 13px 25px;
+  border-radius: 3px;
+  &:hover{
+    background: #81398b;
+    transition: all .3s;
+  }
+}
+

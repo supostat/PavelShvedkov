@@ -1,0 +1,132 @@
+
+.join {
+  margin-top: 70px;
+  content: ' ';
+  width: 100%;
+  background: url("../img/people.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.auth__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__join {
+  max-width: 1270px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 10px solid transparent;
+  border-image: linear-gradient(0deg, rgb(226, 32, 40) 0%, rgb(249, 180, 22) 100%);
+  border-image-slice: 1;
+  padding: 50px 60px;
+
+}
+
+.auth__title {
+  font-size: 38px;
+  color: rgb(47, 25, 70);
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.auth__button-fb {
+  border-radius: 4px;
+  background-color: rgb(47, 83, 163);
+  width: 300px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background: linear-gradient(to bottom, #0094ea 0%, #0083c4 100%);
+    transition: all .3s;
+  }
+}
+
+.fb__auth {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  display: block;
+  padding: 15px 15px 15px 8px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  border: 7px solid gold;
+  flex-direction: column;
+}
+
+.auth__form_bl {
+  margin: 10px;
+
+}
+
+.auth__form-input {
+  font-family: dosisbold;
+  box-sizing: border-box;
+  border: 2px solid rgb(220, 220, 220);
+  transition: all .5s;
+  height: 40px;
+  width: 300px;
+  padding: 0 0 0 15px;
+  font-size: 14px;
+  color: rgb(100, 47, 107);
+  &::placeholder {
+    font-size: 14px;
+    color: rgb(100, 47, 107);
+    font-family: dosisbold;
+  }
+}
+
+.auth__form-submit {
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: rgb(47, 83, 163);
+  font-size: 16px;
+  color: white;
+  display: block;
+  padding: 15px 50px;
+  text-align: center;
+  width: 300px;
+  box-sizing: border-box;
+  &:hover {
+    background: linear-gradient(to bottom, #0094ea 0%, #0083c4 100%);
+    transition: all .3s;
+  }
+}
+
+.auth__or {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  align-items: center;
+}
+
+.auth__line {
+  content: ' ';
+  height: 2px;
+  background: rgb(220, 220, 220);
+  width: 130px;
+  &-or {
+    display: block;
+    font-size: 14px;
+    color: rgb(220, 220, 220);
+    margin: 10px;
+  }
+}
+
+.fb__icon {
+  max-width: 6px;
+}
