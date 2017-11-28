@@ -8,3 +8,17 @@
 
 
 2/10
+
+
+Скилы
+=========
+1. Twitter Bootstrap
+2. Flexbox(must have)
+3. JavaScript, jQuery (Базовые навыки)
+4. Responsive design
+5. Cross browsers (Firefox, Chrome, Safari)
+6. Webpack (Базовые навыки)
+7. JSX
+8. Базовые навыки git, npm
+9. Photoshop, Sketch, Zeppelin
+
